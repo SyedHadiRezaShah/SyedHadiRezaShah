@@ -1,7 +1,5 @@
-<h1 align="center">✨ Assalamu Alaikum! I'm Syed Hadi Reza Shah ✨</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=5F9EA0&width=435&lines=Student+%7C+Content+Creator+%7C+Visual+Storyteller;Cybersecurity+Explorer+%7C+Voice+Artist+%7C+Language+Lover;Lifelong+Learner+%7C+Tradition+%2B+Tech+%3D+Me" alt="Typing SVG" />
+<h1 align="center">Hi there, I'm <span style="color:#1DA1F2;">Syed Hadi Reza Naqvi</span> — aka <a href="https://github.com/HadiRezaShah">Hadi Reza Shah</a>!</h1><p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Software+Developer;Python+%7C+Web+%7C+Open+Source+Enthusiast;Clean+Code+%7C+Elegant+Solutions" alt="Typing SVG" />
 </p>
 
 ---
