@@ -1,4 +1,5 @@
-- 👋 H AL-Usalam-u-Alaikum! I’m @SyedHadiRezaShah.
+- 👋 AL-Usalam-u-Alaikum!
+- 👤 I’m @SyedHadiRezaShah.
 - 👀 I’m interested in Woman.
 - 🌱 I’m currently learning Islamic Library.
 - 💞️ I’m looking to collaborate on HadiTV.
