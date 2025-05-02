@@ -1,0 +1,62 @@
+import json
+
+class TodoList: def init(self, filename='todo_list.json'): self.filename = filename try: with open(self.filename, 'r') as file: self.tasks = json.load(file) except (FileNotFoundError, json.JSONDecodeError): self.tasks = []
+
+def add_task(self, task):
+    self.tasks.append({'task': task, 'completed': False})
+    self._save()
+    print(f"Task added: {task}")
+
+def complete_task(self, index):
+    try:
+        self.tasks[index]['completed'] = True
+        self._save()
+        print(f"Task marked as completed: {self.tasks[index]['task']}")
+    except IndexError:
+        print("Invalid task number.")
+
+def delete_task(self, index):
+    try:
+        removed = self.tasks.pop(index)
+        self._save()
+        print(f"Task deleted: {removed['task']}")
+    except IndexError:
+        print("Invalid task number.")
+
+def list_tasks(self):
+    if not self.tasks:
+        print("No tasks in your list.")
+        return
+    for i, task in enumerate(self.tasks):
+        status = '✔️' if task['completed'] else '❌'
+        print(f"{i}. {task['task']} - {status}")
+
+def _save(self):
+    with open(self.filename, 'w') as file:
+        json.dump(self.tasks, file, indent=4)
+
+def main(): todo = TodoList()
+
+while True:
+    print("\nOptions: add / complete / delete / list / exit")
+    choice = input("Choose an action: ").strip().lower()
+
+    if choice == 'add':
+        task = input("Enter the task: ")
+        todo.add_task(task)
+    elif choice == 'complete':
+        index = int(input("Enter task number to complete: "))
+        todo.complete_task(index)
+    elif choice == 'delete':
+        index = int(input("Enter task number to delete: "))
+        todo.delete_task(index)
+    elif choice == 'list':
+        todo.list_tasks()
+    elif choice == 'exit':
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice. Try again.")
+
+if name == 'main': main()
+
